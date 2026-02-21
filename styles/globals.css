@@ -34,3 +34,11 @@ body {
   height: 100vh;
   flex-direction: column;
 }
+
+.open-multiple-pages-pattern-input {
+  width: 400px;
+}
+
+.open-multiple-pages-button {
+  width: 120px;
+}
