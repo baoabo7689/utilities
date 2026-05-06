@@ -32,6 +32,7 @@ export const translations = {
     sudoku: 'Sudoku',
     rubik: 'Rubik',
     werewolf: 'Werewolf',
+    nonogram: 'Nonogram',
   },
   openMultiplePages: {
     webPagePattern: 'Web page pattern',

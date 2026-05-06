@@ -42,6 +42,11 @@ export const topMenusConfig: TopMenuModel[] = [
         url: 'https://baoabo7689.github.io/werewolf',
         isExternal: true,
       },
+      {
+        menuKey: 'nonogram',
+        url: 'https://baoabo7689.github.io/nonogram',
+        isExternal: true,
+      },
     ],
   },
 ];
