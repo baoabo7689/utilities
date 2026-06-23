@@ -32,6 +32,8 @@ export const translations = {
     sudoku: 'Sudoku',
     rubik: 'Rubik',
     werewolf: 'Ma sói',
+    ying_yang: 'Ying Yang',
+    shikaku: 'Shikaku',
   },
   openMultiplePages: {
     webPagePattern: 'Mẫu trang web',

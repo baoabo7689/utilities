@@ -47,6 +47,16 @@ export const topMenusConfig: TopMenuModel[] = [
         url: 'https://baoabo7689.github.io/nonogram',
         isExternal: true,
       },
+      {
+        menuKey: 'ying_yang',
+        url: 'https://baoabo7689.github.io/ying-yang',
+        isExternal: true,
+      },
+      {
+        menuKey: 'shikaku',
+        url: 'https://baoabo7689.github.io/shikaku',
+        isExternal: true,
+      },
     ],
   },
 ];

@@ -33,6 +33,8 @@ export const translations = {
     rubik: 'Rubik',
     werewolf: 'Werewolf',
     nonogram: 'Nonogram',
+    ying_yang: 'Ying Yang',
+    shikaku: 'Shikaku',
   },
   openMultiplePages: {
     webPagePattern: 'Web page pattern',
