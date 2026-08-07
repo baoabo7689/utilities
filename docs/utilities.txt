@@ -1,0 +1,52 @@
+
+=====================================================================================
+D:
+cd D:\Ps\BB\utilities
+yarn
+yarn run dev 
+
+
+=====================================================================================
+
+with code in D:\Ps\BB\utilities,
+I want add 2 pages:
+1. remove [prefix, suffix]
+	UI include:
+	[prefix, suffix] textboxes with labels + button process
+	input + result text areas
+	that will receive input text [multiline]
+	user click button process
+	then show result in [result text area]
+2. Multiple Searches
+	UI include:
+	text area for search rows
+	current row [text] + button [search next 10]
+	user click button search
+	then process search for 10 rows each time
+	
+	the input may be include exclude section in the end [we will ignore those]
+	and ignore separate row [that start with ===],
+	ignore emty row 
+	
+
+
+I want prefix, suffix and button in one row
+Input text and Result Text in one row
+
+my input as image for multiple searches, so row below Exclude: will be ignore [not ===]
+
+when open multiple pages with firefox/google, I will be face with captcha to check robot. so add small delay [maybe 200ms] between request
+
+
+=====================================================================================
+
+
+
+
+
+
+
+
+
+
+

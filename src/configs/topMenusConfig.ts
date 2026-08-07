@@ -21,6 +21,22 @@ export const topMenusConfig: TopMenuModel[] = [
         url: withBasePath('/web/findAllResources'),
         isExternal: false,
       },
+      {
+        menuKey: 'multipleSearches',
+        url: withBasePath('/web/multipleSearches'),
+        isExternal: false,
+      },
+    ],
+  },
+  {
+    key: 'text',
+    menuKey: 'text',
+    subMenus: [
+      {
+        menuKey: 'removePrefixSuffix',
+        url: withBasePath('/text/removePrefixSuffix'),
+        isExternal: false,
+      },
     ],
   },
   {

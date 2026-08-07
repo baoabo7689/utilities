@@ -17,6 +17,14 @@ export default function HelpPage() {
           ))}
         </ul>
       </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4">{translations.help?.text}</h2>
+        <ul className="list-disc pl-6 text-lg">
+          {translations.help?.textHelps?.map((rule: string, idx: number) => (
+            <li key={idx}>{rule}</li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }

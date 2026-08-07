@@ -9,10 +9,15 @@ export const translations = {
   help: {
     title: 'Trợ giúp',
     web: 'Web',
+    text: 'Văn bản',
     games: 'Trò chơi',
     webHelps: [
       'Mở nhiều trang: một cú nhấp để mở nhiều trang web',
       'Tìm tất cả tài nguyên: liệt kê tất cả tài nguyên trên một trang web',
+      'Tìm kiếm nhiều dòng: tìm kiếm Google cho từng đợt 10 dòng',
+    ],
+    textHelps: [
+      'Xóa tiền tố/hậu tố: loại bỏ tiền tố và/hoặc hậu tố cho trước khỏi mỗi dòng văn bản',
     ],
   },
   home: {
@@ -29,6 +34,9 @@ export const translations = {
     games: 'Trò chơi',
     openMultiplePages: 'Mở nhiều trang',
     findAllResources: 'Tìm tất cả tài nguyên',
+    multipleSearches: 'Tìm kiếm nhiều dòng',
+    text: 'Văn bản',
+    removePrefixSuffix: 'Xóa tiền tố/hậu tố',
     sudoku: 'Sudoku',
     rubik: 'Rubik',
     werewolf: 'Ma sói',
@@ -55,6 +63,25 @@ export const translations = {
     invalidUrl: 'Vui lòng nhập URL hợp lệ.',
     fetchError: 'Không thể tải tài nguyên từ URL này. Trang có thể chặn yêu cầu khác nguồn.',
     empty: 'Không tìm thấy tài nguyên nào.',
+  },
+  removePrefixSuffix: {
+    prefix: 'Tiền tố',
+    suffix: 'Hậu tố',
+    prefixPlaceholder: 'ví dụ: IMG_',
+    suffixPlaceholder: 'ví dụ: .jpg',
+    inputText: 'Văn bản đầu vào',
+    resultText: 'Kết quả',
+    process: 'Xử lý',
+  },
+  multipleSearches: {
+    searchRows: 'Danh sách dòng tìm kiếm',
+    rowsPlaceholder:
+      'Mỗi dòng một từ khóa tìm kiếm...\n===============\nCác dòng ===== sẽ bị bỏ qua\n\nExclude:\nCác dòng sau dòng bắt đầu bằng "Exclude:" sẽ bị bỏ qua',
+    currentRow: 'Dòng hiện tại',
+    totalRows: 'Tổng số dòng',
+    endRow: 'Dòng cuối',
+    searchNext: 'Tìm 10 dòng tiếp theo',
+    noRowsLeft: 'Không còn dòng nào để tìm kiếm.',
   },
 };
 

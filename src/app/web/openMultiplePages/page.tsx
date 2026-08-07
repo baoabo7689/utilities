@@ -3,6 +3,8 @@
 import { useMemo, useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
+const OPEN_DELAY_MS = 200;
+
 export default function OpenMultiplePagesPage() {
   const { translations } = useLanguage();
   const openMultiplePagesTexts = translations.openMultiplePages;
@@ -40,8 +42,10 @@ export default function OpenMultiplePagesPage() {
       return;
     }
 
-    urls.forEach((url) => {
-      window.open(url, '_blank', 'noopener,noreferrer');
+    urls.forEach((url, index) => {
+      setTimeout(() => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      }, index * OPEN_DELAY_MS);
     });
 
     setCurrentPage((previousPage) => previousPage + Math.max(pageCount, 1));
